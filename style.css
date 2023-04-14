@@ -2,9 +2,13 @@ body{
     margin: 0px;
     font-family: 'Poppins', sans-serif;
 }
+p{
+    color: dimgray;
+}
 .Top-banner{
    background-image: url("images/top-banner.png");
    background-repeat: no-repeat;
+   padding-bottom:50px;
 }
 h1{
  font-size: 50px;
@@ -32,4 +36,33 @@ section{
     border-radius: 10px;
     color: white;
     font-weight: bold;
+}
+.protfolio1{
+    background-image:url("images/dream-bg.png") ;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height:60%;
+    background-color: white;
+}
+.experiencea_area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;
+}
+#fullstack{
+    border-left: 7px solid;
+    border-image:linear-gradient(180deg,lightsalmon,tomato);
+    border-image-slice:1 ;
+}
+#junior{
+    border-left: 7px solid;
+    border-image:linear-gradient(180deg,blue,cyan);
+    border-image-slice:1 ;
+}
+footer p{
+    text-align: center;
 }
